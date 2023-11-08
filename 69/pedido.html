@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>69 Tranporte</title>
+    
+</head>
+<body>
+    <header class="header">
+        <a href="pedido.html"><img class="logo" src="img/Logo.png" alt=""></a>
+
+        <a id="perfil" href="perfil.html"><img class="icone-perfil" src="img/Perfil.png" alt=""></a>
+    </header>
+    
+    <main>
+        <div class="map-container">
+            <iframe class="mapa-et" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28787.962860687014!2d-48.56226184143125!3d-25.588450901887413!2m3!
+            1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db8f065267f34f%3A0x29a3eb5a1b498a93!2sClaudin%C3%A9ia%20Lanches!5e0!3m2!1spt-BR!2sbr!
+            4v1682889640108!5m2!1spt-BR!2sbr" width="600" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <form class="pesquisaDeCorrida" action="preco.html">
+            <h2 class="tt_carona">Pedir minha Carona</h2>
+
+            <label class="label" for="currentLocation">Localização Atual:</label>
+            <input class="inputCarona" type="text" id="locAtual" required placeholder="Digite sua localização atual">
+
+            <label class="label" for="destination">Local de Destino:</label>
+            <input class="inputCarona" type="text" id="locFinal" required placeholder="Digite o local de destino">
+
+
+            <input type="submit" id="buttonCarona" value="Procurar Carona">
+        </form>
+
+    </main>
+</body>
+</html>
